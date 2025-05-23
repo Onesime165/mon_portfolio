@@ -1,0 +1,213 @@
+---
+title: " "
+image: "onene.jpg"
+draft: false
+---
+
+
+```{=html}
+<head>
+  <!-- Preload assets -->
+  <link rel="preload" href="/My_portfolio/home-background.jpg" as="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <style>
+    :root {
+      --primary: #3498db;
+      --primary-dark: #2980b9;
+      --secondary: #2ecc71;
+      --dark: #2c3e50;
+      --light: #ecf0f1;
+      --gray: #bdc3c7;
+      --glass: rgba(44, 62, 80, 0.85);
+    }
+
+    body {
+      background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)),
+                        url('/My_portfolio/home-background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'Montserrat', sans-serif;
+      color: var(--light);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .content {
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 3rem 4rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      max-width: 800px;
+      width: 90%;
+      margin: 2rem auto;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .content:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0 1rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 1.2rem;
+      color: var(--gray);
+      margin-bottom: 1.8rem;
+      font-weight: 400;
+      letter-spacing: 1px;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin: 0 auto 2rem;
+      color: var(--light);
+      max-width: 600px;
+    }
+
+    .links {
+      display: flex;
+      gap: 1.2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.8rem 1.8rem;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
+      border: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      font-size: 0.95rem;
+    }
+
+    .button:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: 0.5s;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(41, 128, 185, 0.4);
+    }
+
+    .button:hover:before {
+      left: 100%;
+    }
+
+    .button-secondary {
+      background: transparent;
+      border: 2px solid var(--primary);
+      color: var(--primary);
+      box-shadow: none;
+    }
+
+    .button-secondary:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .content {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content {
+        padding: 2rem;
+        margin: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .description {
+        font-size: 1rem;
+      }
+
+      .button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <h1>Onesime N'dri</h1>
+    <div class="subtitle">Data Analyst Junior | Data Scientist Junior</div>
+
+    <p class="description">
+      Passionné par l'analyse de données et le machine learning. Je transforme les données complexes en solutions intelligentes pour une prise de décision éclairée.
+    </p>
+
+    <div class="links">
+      <a href="About.qmd" class="button" title="En savoir plus sur moi">
+        <span>À propos</span>
+      </a>
+      <a href="page-projet/page1.qmd" class="button button-secondary" title="Voir mes projets">
+        <span>Mes projets</span>
+      </a>
+    </div>
+  </div>
+</body>
+
+```
+

@@ -1,0 +1,526 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    css: custom-styles/style1.css
+---
+
+```{=html}
+<div class="cv-container">
+    <header>
+        <div class="profile-container">
+            <img src="onene.jpg" alt="Photo de profil" class="profile-picture">
+            <div class="header-content">
+                <h1>N'DRI ONESIME</h1>
+                <h2>Data Analyst / Data Scientist</h2>
+                <div class="contact-info">
+                    <div>
+                        <span>📧</span>
+                        <span>ndriablatie123@gmail.com</span>
+                    </div>
+                    <div>
+                        <span>📱</span>
+                        <span>+225 07 68 05 98 87</span>
+                    </div>
+                    <div>
+                        <span>🌐</span>
+                        <span>linkedin.com/in/ndri-onesime</span>
+                    </div>
+                    <div>
+                        <span>📍</span>
+                        <span>Abidjan, Côte d'Ivoire</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Data Analyst/Data Scientist en recherche de stage, maîtrisant Python, Pandas et les concepts de machine learning pour exploiter les données. Rigoureux et analytique, je transforme les données brutes en insights stratégiques pour la prise de décision.</p>
+    </header>
+
+    <nav>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Tout afficher</button>
+            <button class="filter-btn" data-filter="experience">Expérience</button>
+            <button class="filter-btn" data-filter="education">Formation</button>
+            <button class="filter-btn" data-filter="skills">Compétences</button>
+            <button class="filter-btn" data-filter="certifications">Certifications</button>
+            <button class="filter-btn" data-filter="interests">Centres d'intérêt</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="experience" class="section" data-category="experience">
+            <div class="section-header">
+                <h2>Expérience Professionnelle</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Agent recenseur</div>
+                        <div class="entry-subtitle">Ministère de l'Éducation Nationale</div>
+                        <div class="entry-date">Dates non spécifiées</div>
+                    </div>
+                    <div class="entry-content">
+                        <ul>
+                            <li>Enregistrement avec rigueur des informations sur tablette de dernière génération</li>
+                            <li>Localisation et organisation des données collectées pour faciliter leur exploitation</li>
+                            <li>Répertoire méthodique des lieux de services informels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section" data-category="education">
+            <div class="section-header">
+                <h2>Formation</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Master Statistique, Économétrie et Data Science</div>
+                        <div class="entry-subtitle">INSSEDS - Institut Supérieur de la Statistique, Économétrie et Data Science</div>
+                        <div class="entry-date">2024 - Aujourd'hui</div>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Maîtrise d'Économie Internationale</div>
+                        <div class="entry-subtitle">Université Félix Houphouët Boigny de Cocody</div>
+                        <div class="entry-date">2021 - 2024</div>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Licence en Sciences Économiques & de Gestion</div>
+                        <div class="entry-subtitle">Université Félix Houphouët Boigny de Cocody</div>
+                        <div class="entry-date">2017 - 2021</div>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Baccalauréat Série D</div>
+                        <div class="entry-subtitle">Lycée Classique d'Abidjan</div>
+                        <div class="entry-date">2015 - 2016</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section" data-category="skills">
+            <div class="section-header">
+                <h2>Compétences</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Compétences Techniques</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Python (Pandas, Scikit-learn)</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">R (RStudio)</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL (PostgreSQL)</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Web Scraping</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Langues</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Français</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Anglais</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Analyse critique</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Rigueur</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Curiosité intellectuelle</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section" data-category="certifications">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">SQL-introduction</div>
+                        <div class="entry-subtitle">Sololearn</div>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">SQL-intermediate</div>
+                        <div class="entry-subtitle">Sololearn</div>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Introduction Python</div>
+                        <div class="entry-subtitle">Sololearn</div>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Data Visualisation</div>
+                        <div class="entry-subtitle">Sololearn</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="section" data-category="interests">
+            <div class="section-header">
+                <h2>Centres d'intérêt</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="interests">
+                    <div class="interest-item">Technologies et Innovations</div>
+                    <div class="interest-item">Natation</div>
+                    <div class="interest-item">Basket-ball</div>
+                    <div class="interest-item">Football</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 N'DRI ONESIME - CV Interactif</p>
+        <a href="#" class="download-button" id="print-button">Imprimer / Télécharger PDF</a>
+    </footer>
+</div>
+
+<style>
+.cv-container {
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #ecf0f1;
+}
+
+.header-content h1 {
+    margin: 0;
+    color: #ecf0f1;
+}
+
+.header-content h2 {
+    margin: 5px 0;
+    color: #bdc3c7;
+    font-weight: normal;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-info span:first-child {
+    margin-right: 10px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 8px 15px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filter-btn.active {
+    background-color: #3498db;
+    color: white;
+}
+
+.section {
+    margin-bottom: 30px;
+    background-color: #34495e;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.section-header h2 {
+    margin: 0;
+    color: #ecf0f1;
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.entry {
+    margin-bottom: 20px;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.entry-title {
+    font-weight: bold;
+    color: #ecf0f1;
+    flex: 1;
+}
+
+.entry-subtitle {
+    color: #bdc3c7;
+    flex: 1;
+}
+
+.entry-date {
+    color: #bdc3c7;
+    text-align: right;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill-category {
+    flex: 1;
+    min-width: 250px;
+}
+
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    display: block;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.interest-item {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #2c3e50;
+    color: #ecf0f1;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.download-button:hover {
+    background-color: #2980b9;
+}
+
+.hidden {
+    display: none;
+}
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const sections = document.querySelectorAll('.section');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filter = button.getAttribute('data-filter');
+
+                // Show/hide sections based on filter
+                sections.forEach(section => {
+                    if (filter === 'all' || section.getAttribute('data-category') === filter) {
+                        section.classList.remove('hidden');
+                    } else {
+                        section.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Toggle section content
+        const toggleButtons = document.querySelectorAll('.toggle-button');
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const sectionContent = button.parentElement.nextElementSibling;
+
+                if (sectionContent.style.display === 'none') {
+                    sectionContent.style.display = 'block';
+                    button.textContent = '🔽';
+                } else {
+                    sectionContent.style.display = 'none';
+                    button.textContent = '▶️';
+                }
+            });
+        });
+
+        // Print functionality
+        const printButton = document.getElementById('print-button');
+
+        printButton.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            // Show all sections before printing
+            sections.forEach(section => {
+                section.classList.remove('hidden');
+                const sectionContent = section.querySelector('.section-content');
+                if (sectionContent) {
+                    sectionContent.style.display = 'block';
+                }
+            });
+
+            window.print();
+        });
+    });
+</script>
+```
